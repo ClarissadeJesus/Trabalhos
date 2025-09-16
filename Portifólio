@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio de Dashboards</title>
+</head>
+<body>
+  <h1>Meus Dashboards</h1>
+  <img src="imagens/dashboard1.png" alt="Dashboard 1" width="600">
+  <p>Dashboard de embalados - Agosto 2025</p>
+  <!-- Repita para outros dashboards -->
+</body>
+</html>
