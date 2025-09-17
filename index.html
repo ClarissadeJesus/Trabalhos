@@ -1,18 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Trabalhos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Dashboard - Clarissa de Jesus</title>
     <style>
         body {
-            /* background: #0d47a1; */
-            font-family: Arial, sans-serif;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fcfcfc;
+            color: #333;
         }
-        /* Outros estilos aqui */
+        header {
+            background: #0074d9;
+            color: #fff;
+            padding: 40px 0 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .trabalhos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+        }
+        .trabalho {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 20px;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .trabalho img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 5px;
+            margin-bottom: 12px;
+        }
+        .trabalho h2 {
+            font-size: 1.3em;
+            margin: 8px 0 4px 0;
+        }
+        .trabalho p {
+            font-size: 1em;
+            color: #666;
+        }
+        .trabalho:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        footer {
+            background: #f2f2f2;
+            padding: 18px 0;
+            text-align: center;
+            color: #888;
+            margin-top: 60px;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.6em; }
+            .container { margin: 20px auto; }
+        }
     </style>
 </head>
 <body>
-    <h1>Bem-vindo ao meu portfólio!</h1>
-    <p>Aqui estão alguns dos meus trabalhos.</p>
-    <!-- Conteúdo adicional -->
+    <header>
+        <h1>Portfólio de Dashboard - Clarissa de Jesus</h1>
+        <p>Portfólio de projetos e atividades</p>
+    </header>
+    <div class="container">
+        <section class="trabalhos-grid">
+            <div class="trabalho">
+                <img src="https://via.placeholder.com/220x150?text=Trabalho+1" alt="Trabalho 1">
+                <h2>Trabalho 1</h2>
+                <p>Descrição breve do trabalho realizado. Exemplo: Cartaz digital no Canva.</p>
+            </div>
+            <div class="trabalho">
+                <img src="https://via.placeholder.com/220x150?text=Trabalho+2" alt="Trabalho 2">
+                <h2>Trabalho 2</h2>
+                <p>Descrição breve do trabalho realizado. Exemplo: Projeto de vídeo.</p>
+            </div>
+            <div class="trabalho">
+                <img src="https://via.placeholder.com/220x150?text=Trabalho+3" alt="Trabalho 3">
+                <h2>Trabalho 3</h2>
+                <p>Descrição breve do trabalho realizado. Exemplo: Arte vetorial.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Clarissa de Jesus. Todos os direitos reservados.
+    </footer>
 </body>
 </html>
